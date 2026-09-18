@@ -1,6 +1,24 @@
 # What is Java?<br>
 Java is a high-level, object-oriented programming language developed by Sun Microsystems and now maintained by Oracle.<br>
 Java is a popular and powerful programming language, created in 1995.
+### . What is Programming?
+Programming is the process of writing instructions for a computer to perform a specific task or solve a problem.<br>
+## What is a Programming Language.
+A programming language is a language used by programmers to write instructions that can be processed by a computer.<br>
+## What is a Programmer?
+A programmer is a person who writes, tests, debugs, and maintains computer programs using programming languages.
+For example, a person who writes Java code is called a Java programmer.
+### What does a programmer do?
+A programmer generally:<br>
+
+1.Understands the problem<br>
+2.Designs a solution<br>
+3.Writes code<br>
+4.Compiles/runs the code<br>
+5.Finds errors<br>
+6.Fixes errors<br>
+7.Tests the program<br>
+8.Maintains and improves the program
 
 ### Java is widely used for:
 
@@ -20,9 +38,27 @@ Bytecode<br>
   ↓ 
 JVM<br> 
   ↓ 
-Windows / Linux / macOS.
+Windows / Linux / macOS.<br>
 
-JDK vs JRE vs JVM
+## What is a Compiler?
+
+Since you asked about Java compiler and interpreter earlier, let's connect it.<br>
+A compiler is a software that translates source code written in a programming language into another form that can be executed by a computer or runtime environment.<br>
+
+In Java, the compiler is:<br>
+javac<br>
+For example:<br>
+javac Hello.java<br>
+The compiler converts:<br>
+Hello.java<br>
+     ↓<br>
+Java Compiler (javac)<br>
+     ↓<br>
+Hello.class<br>
+
+The .class file contains bytecode.<br>
+
+JDK vs JRE vs JVM<br>
 
 ### JVM
 
@@ -30,7 +66,16 @@ Java Virtual Machine
 
 It runs Java bytecode.
 
-.class file → JVM → Program runs
+.class file → JVM → Program runs<br>
+Main job of JVM
+
+## The JVM:
+Loads bytecode<br>
+Verifies bytecode<br>
+Executes bytecode<br>
+Uses the interpreter<br>
+Uses JIT compilation for frequently executed code<br>
+Manages memory
 
 ### JRE
 
