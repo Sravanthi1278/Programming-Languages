@@ -1,5 +1,6 @@
 # What is Java?<br>
-Java is a high-level, object-oriented programming language developed by Sun Microsystems and now maintained by Oracle.
+Java is a high-level, object-oriented programming language developed by Sun Microsystems and now maintained by Oracle.<br>
+Java is a popular and powerful programming language, created in 1995.
 
 ### Java is widely used for:
 
@@ -11,13 +12,13 @@ One major reason Java is popular is: Write Once, Run Anywhere Java code is compi
 
 ### For example:
 
-Java Code 
+Java Code <br>
   ↓
-Compiler
+Compiler<br>
   ↓ 
-Bytecode 
+Bytecode<br>
   ↓ 
-JVM 
+JVM<br> 
   ↓ 
 Windows / Linux / macOS.
 
