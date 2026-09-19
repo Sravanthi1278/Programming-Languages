@@ -152,7 +152,7 @@ println() moves to the next line.<br>
 print() stays on the same line.
 
 # Comments
-Comments are notes for humans. Java doesn't execute them.
+Comments can be used to explain Java code, and to make it more readable. It can also be used to prevent execution when testing alternative code.<br>
 ## Single-line comment
 // This is a comment
 System.out.println("Hello");
